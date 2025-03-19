@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    height:40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin:20px  auto;
+    height: 100%;
+}
+
+.card img{
+    height:200px;
+    object-fit:  contain;
+}
+.card-text{
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
